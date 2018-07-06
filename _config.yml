@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: RGB Protocol
-email: rgb@bhb.network
+email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   The RGB Project is a completely free, open-source, non-profit and community-oriented effort,
   promoted by the BHB Network and aimed at the development of standards and best practices to
