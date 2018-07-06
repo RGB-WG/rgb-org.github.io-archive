@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   promoted by the BHB Network and aimed at the development of standards and best practices to
   issue, transmit and store "Bitcoin-based non-bitcoin assets".
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "rgb.network" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ??
 github_username:  rgb-org
 
