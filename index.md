@@ -98,30 +98,15 @@ and *Peter Wuille* works. The overall work on RGB since 2019 was financially
 supported by **Bitfinex/ Tether Inc** and **Fulgur Ventures**.
 
 As a technology RGB had multiple contributors and reviewers additionally to the
-mentioned persons; among them
-* Christian Decker
-* Christophe Diederichs
-* Emil Bayes
-* Fabrizio Armani
-* Federico Tenga
-* John Carvalho
-* Martino Salvetti
-* Max Hillebrand
-* Marco Amadori
-* Martin Habovštiak
-* Oleg Mikhalsky
-* Olga Ukolovas
-* Paolo Arduino
-* Rene Pickhardt
-* Reza Bandegi
-* Stephano Pellegrini
-* Sudo
-* ZmnSCPxj
-* Zoe Fatiba
-and many other independent contributors
+mentioned persons; among them *Christian Decker*, *Christophe Diederichs*, *Emil
+Bayes*, *Fabrizio Armani*, *Federico Tenga*, *John Carvalho*, *Martino
+Salvetti*, *Max Hillebrand*, *Marco Amadori*, *Martin Habovštiak*, *Nicola
+Busanello*, *Oleg Mikhalsky*, *Olga Ukolovas*, *Paolo Arduino*, *Rene
+Pickhardt*, *Reza Bandegi*, *Stephano Pellegrini*, *ZmnSCPxj*, *Zoe Fatiba*, and
+many other independent contributors
 
-RGB acknowledges significant role which played advises of Adam Back and work of
-**Blockstream** engineers in the design of its technology.
+RGB acknowledges significant role which played advises of *Adam Back* and work
+of **Blockstream** engineers in the design of its technology.
 
 
 # Contacts
