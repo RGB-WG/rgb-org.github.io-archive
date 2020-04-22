@@ -8,15 +8,15 @@ by [LNP/BP Standards Association](https://github.com/LNP-BP).
 
 What is possible with RGB:
 * Issue digital fungible assets, like stock, bonds and other forms of securities
-* Create different form of collectibles (non-fungible assets)
+* Create different forms of collectibles (non-fungible assets)
 * Create and manage sovereign/decentralized identities
 * Design and run other forms of arbitrary-complex smart contracts
 
 
 # Core concepts
 
-As a smart contract system RGB is quite different to previous approaches,
-both Bitcoin-based (color coins, Counterparty, OMNI) and non-bitcoin (Ethereum,
+As a smart contract system RGB is quite different from previous approaches,
+both Bitcoin-based (Colored coins, Counterparty, OMNI) and non-bitcoin (Ethereum,
 EOS and others):
 
 * RGB separates concept of smart contract **issuer**, **state owners** and
@@ -30,24 +30,24 @@ EOS and others):
 More about these concepts can be read in [this presentation](https://github.com/LNP-BP/devcalls/blob/master/RGB%20%26%20Spectrum%20explanation%20for%20business.pdf).
 
 Briefly, RGB smart contracts operate with **client-side validation** paradigm,
-meaning that all the data are kept outside of the bitcoin transactions, i.e.
-bitcoin  blockchain or lightning channel state. This allows system to operate on
+meaning that all the data is kept outside of the bitcoin transactions, i.e.
+bitcoin  blockchain or lightning channel state. This allows the system to operate on
 top of Lightning Network without any changes to the LN protocols and also gives
-a foundation for the high level of protocol scalability and privacy.
+a foundation for a high level of protocol scalability and privacy.
 
 As a security mechanism RGB uses **single-use seals** defined over bitcoin
 transaction outputs, which provides ability for any party having smart contract
 state history to verify it's uniquiness. In other words, RGB leverages Bitcoin
-script for it's security model and definition of the **ownership** and **access
+script for its security model and definition of the **ownership** and **access
 rights**.
 
 Each RGB smart contract is represented by some **genesis state**, created by
-**smart contract issuer** (or, simply, issuer) and a directed acyclic graph
+**smart contract issuer** (or, put simply, issuer) and a directed acyclic graph
 (DAG) of **state transitions** kept in form of *client-validated data* (i.e.
-these data are not stored in blockchain or within LN transactions/channel state).
+this data is not stored on blockchain or within LN transactions/channel state).
 The state is **assigned** to unspent bitcoin transaction outputs, which defines
 them as *single-use seals*. The party that is able to spend corresponding
-transaction output is named a party **owning state**: it is a party that have the
+transaction output is named a party **owning state**: it is a party that has the
 right to change the corresponding part of the smart contract state by creating
 a new *state transition* and committing to it in a transaction spending the
 output containing previous state. This procedure represents **closing of a seal
@@ -58,16 +58,16 @@ extra-transaction data on the state transition are named **witness**.
 Each smart contract may maintain different forms of state and define different
 kinds of single-use seals with different validation rules. Additionally to this,
 state transition may contain different metadata and *Simplicity scripts*,
-defining parts of it's business logic.
+defining parts of its business logic.
 
 Which types of state, seals, metadata and which script extensions are allowed
 within state transitions is defined by **schema**. Thus, schema can be seen as
-a validation rules for *client-side validation*; schema is always defined by
+validation rules for *client-side validation*; schema is always defined by
 the issuer in state genesis. Schema also may contain Turing-complete *Simplicity
 scripts* defining parts of the business logic for *client-side validation*.
 
 RGB operates in "shards", where each contract has a separate **state history**
-and data; different smart contracts are never intersect in their histories
+and data; different smart contracts never intersect in their histories
 directly. This allows another level of scalability; and while the therm "shard"
 is  incorrect, we use it to demonstrate that RGB actually achieves what was
 planned to be achieved with "Ethereum shards".
@@ -87,12 +87,12 @@ from the smart contract creation.
 
 RGB originally was envisioned in 2016 by *Giacomo Zucco* and *Peter Todd*,
 presenting a further development for Peter's Todd concepts of **client-side
-validation** and **single-use seals**. It's development was maintained for some
+validation** and **single-use seals**. Its development was maintained for some
 time by **BHB Network**, **inbitcoin** and supported by **Poseidon Group**; for
 this time the  main developer for RGB technology was *Alekos Filini*. Since
-mid-2019 **Pandora Core AG** and *Dr Maxim Orlovsky* became main contributors to
+mid-2019 **Pandora Core AG** and *Dr Maxim Orlovsky* have become main contributors to
 the technology development; RGB became a project basing on set of standards
-maintained by **LNP/BP Standards Association**. At this stage RGB absorbed
+maintained by **LNP/BP Standards Association**. At this stage RGB has absorbed
 confidential amounts and bulletproofs from **Blockstream**, *Andrew Poelstra*
 and *Peter Wuille* works. The overall work on RGB since 2019 was financially
 supported by **Bitfinex/ Tether Inc** and **Fulgur Ventures**.
@@ -101,8 +101,8 @@ As a technology RGB had multiple contributors and reviewers additionally to the
 mentioned persons; among them *Christian Decker*, *Christophe Diederichs*, *Emil
 Bayes*, *Fabrizio Armani*, *Federico Tenga*, *John Carvalho*, *Martino
 Salvetti*, *Max Hillebrand*, *Marco Amadori*, *Martin Habovštiak*, *Nicola
-Busanello*, *Oleg Mikhalsky*, *Olga Ukolovas*, *Paolo Arduino*, *Rene
-Pickhardt*, *Reza Bandegi*, *Stephano Pellegrini*, *ZmnSCPxj*, *Zoe Fatiba*, and
+Busanello*, *Oleg Mikhalsky*, *Olga Ukolova*, *Paolo Arduino*, *Rene
+Pickhardt*, *Reza Bandegi*, *Stephano Pellegrini*, *ZmnSCPxj*, *Zoe Faltiba*, and
 many other independent contributors
 
 RGB acknowledges significant role which played advises of *Adam Back* and work
