@@ -102,7 +102,7 @@ mentioned persons; among them *Christian Decker*, *Christophe Diederichs*, *Emil
 Bayes*, *Fabrizio Armani*, *Federico Tenga*, *John Carvalho*, *Martino
 Salvetti*, *Max Hillebrand*, *Marco Amadori*, *Martin Habovštiak*, *Nicola
 Busanello*, *Oleg Mikhalsky*, *Olga Ukolova*, *Paolo Arduino*, *Rene
-Pickhardt*, *Reza Bandegi*, *Stephano Pellegrini*, *ZmnSCPxj*, *Zoe Faltiba*, and
+Pickhardt*, *Reza Bandegi*, *Stefano Pellegrini*, *ZmnSCPxj*, *Zoe Faltiba*, and
 many other independent contributors
 
 RGB acknowledges significant role which played advises of *Adam Back* and work
