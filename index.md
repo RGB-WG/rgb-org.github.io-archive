@@ -24,7 +24,7 @@ EOS and others):
 * RGB keeps the smart contract code and data offchain
 * RGB uses blockchain as a state commitment layer and Bitcoin script as an
   ownership control system; while smart contract evolution is defined by
-  off-chain **schema** and enchaned by *Simplicity
+  off-chain **schema** and enhanced by *Simplicity
   language*
 
 More about these concepts can be read in [this presentation](https://github.com/LNP-BP/devcalls/blob/master/RGB%20%26%20Spectrum%20explanation%20for%20business.pdf).
