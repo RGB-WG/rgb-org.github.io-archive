@@ -24,8 +24,7 @@ EOS and others):
 * RGB keeps the smart contract code and data offchain
 * RGB uses blockchain as a state commitment layer and Bitcoin script as an
   ownership control system; while smart contract evolution is defined by
-  off-chain **schema** and enhanced by *Simplicity
-  language*
+  off-chain **schema**
 
 More about these concepts can be read in [this presentation](https://github.com/LNP-BP/FAQ/blob/master/Presentation%20slides/RGB%20%26%20Spectrum%20explanation%20for%20business.pdf).
 
@@ -57,14 +56,14 @@ extra-transaction data on the state transition are named **witness**.
 *State transition* **assigns** *state* to a set of defined **single-use seals**.
 Each smart contract may maintain different forms of state and define different
 kinds of single-use seals with different validation rules. Additionally to this,
-state transition may contain different metadata and *Simplicity scripts*,
-defining parts of its business logic.
+state transition may contain different metadata and *scripts*, defining parts of 
+its business logic.
 
 Which types of state, seals, metadata and which script extensions are allowed
 within state transitions is defined by **schema**. Thus, schema can be seen as
 validation rules for *client-side validation*; schema is always defined by
-the issuer in state genesis. Schema also may contain Turing-complete *Simplicity
-scripts* defining parts of the business logic for *client-side validation*.
+the issuer in state genesis. Schema also may contain Turing-complete 
+*scripts* defining parts of the business logic for *client-side validation*.
 
 RGB operates in "shards", where each contract has a separate **state history**
 and data; different smart contracts never intersect in their histories
