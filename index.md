@@ -97,12 +97,12 @@ RGB was originally envisioned in 2016 by _Giacomo Zucco_ \(**BHB Network**\) as 
 * _Rajar Shimaitra,_
 * _Rene Pickhardt_, 
 * _Reza Bandegi_, 
-* [_Sosthene_](https://github.com/Sosthene00)\_\_
+* _[Sosthene](https://github.com/Sosthene00)_,
 * _Stefano Pellegrini_, 
-* [_yojoe_](https://github.com/yojoe)\_\_
+* _[yojoe](https://github.com/yojoe)_,
 * _ZmnSCPxj_, 
 * _Zoe Faltiba,_
-* \_\_[_zkao_](https://github.com/zkao)_,_
+* _[zkao](https://github.com/zkao)_,
 
 The community and contribution management since 2019 was performed by _Olga Ukolova_, Pandora Core AG.
 
